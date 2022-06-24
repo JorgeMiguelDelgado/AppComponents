@@ -18,11 +18,18 @@ class CardScreen extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          CustomCardType2(),
+          CustomCardType2(
+            imageUrl:
+                'https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+            description: 'Paisaje 1',
+          ),
           SizedBox(
             height: 20,
           ),
-          CustomCardType2(),
+          CustomCardType2(
+            imageUrl:
+                'https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+          ),
           SizedBox(
             height: 100,
           ),
