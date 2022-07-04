@@ -1,3 +1,4 @@
+import 'package:fl_components/screens/slider_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../screens/screens.dart';
@@ -49,7 +50,13 @@ class AppRoutes {
       icon: Icons.input_rounded,
       name: 'Inputs',
       screen: const InputsScreen(),
-    )
+    ),
+    MenuOption(
+      route: 'slider',
+      icon: Icons.slow_motion_video_rounded,
+      name: 'Sliders and Check',
+      screen: const SliderScreen(),
+    ),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {

@@ -1,3 +1,5 @@
+export 'package:flutter/material.dart';
+
 export 'package:fl_components/screens/inputs_screen.dart';
 
 export 'package:fl_components/screens/animated_screen.dart';
